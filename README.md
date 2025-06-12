@@ -85,7 +85,7 @@ The system supports a maximum file size of 100MB, adjustable based on hardware c
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/traffic-monitoring-system.git
+   git clone https://github.com/kaschina/real_time_trafic_monitaring.git
    cd traffic-monitoring-system
    ```
 
