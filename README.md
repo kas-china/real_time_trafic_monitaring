@@ -229,7 +229,7 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a Pull Request.
 
-Report issues or suggest features via the [Issues](https://github.com/your-repo/traffic-monitoring-system/issues) tab.
+Report issues or suggest features via the [Issues](https://github.com/kaschina/real_time_trafic_monitaring.git) tab.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -240,4 +240,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Zeleke Kassahun Getachewu
 - Degife Ruth Dachew
 
-**Contact**: [2120246060@mail.nankai.edu.cn] or [Repository Link](https://github.com/your-username/your-repo-name)
+**Contact**: [2120246060@mail.nankai.edu.cn] or [Repository Link](https://github.com/kaschina/real_time_trafic_monitaring.git)
