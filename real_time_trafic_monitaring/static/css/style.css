@@ -1,0 +1,160 @@
+:root {
+    --primary: #4e73df;
+    --secondary: #858796;
+    --success: #1cc88a;
+    --info: #36b9cc;
+    --warning: #f6c23e;
+    --danger: #e74a3b;
+    --light: #f8f9fc;
+    --dark: #5a5c69;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fc;
+    color: #333;
+}
+
+.sidebar {
+    background: linear-gradient(180deg, var(--primary) 0%, #224abe 100%);
+    min-height: 100vh;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    z-index: 100;
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.35rem;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+}
+
+.sidebar .nav-link i {
+    margin-right: 0.5rem;
+}
+
+.main-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card {
+    border: none;
+    border-radius: 0.35rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    padding: 1rem 1.35rem;
+    font-weight: 600;
+}
+
+.stat-card {
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 0.35rem;
+}
+
+.video-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upload-area {
+    background-color: #f8f9fc;
+    border: 2px dashed #d1d3e2;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.upload-area:hover {
+    border-color: var(--primary);
+    background-color: rgba(78, 115, 223, 0.05);
+}
+
+#detection-log .list-group-item {
+    border-left: 0;
+    border-right: 0;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.85rem;
+}
+
+#detection-log .list-group-item:first-child {
+    border-top: 0;
+}
+
+.detection-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.detection-item i {
+    font-size: 1.25rem;
+}
+
+.detection-item.car i {
+    color: var(--success);
+}
+
+.detection-item.truck i {
+    color: var(--warning);
+}
+
+.detection-item.bus i {
+    color: var(--info);
+}
+
+.detection-item.motorcycle i {
+    color: var(--danger);
+}
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+        position: static;
+    }
+    .main-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.video-container video {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    background-color: #000;
+}
+
+.ratio-16x9 {
+    aspect-ratio: 16 / 9;
+}

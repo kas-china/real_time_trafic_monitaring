@@ -1,0 +1,13 @@
+Flask
+numpy
+opencv-python
+ultralytics
+matplotlib
+pandas
+sqlite3
+reportlab
+ffmpeg-python
+python-dotenv
+gunicorn
+Pillow
+Werkzeug
