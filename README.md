@@ -9,8 +9,8 @@
 This open-source **Real-Time Traffic Monitoring System** is a Flask-based web application designed for vehicle detection and tracking using the YOLOv8 model, OpenCV, and FFmpeg. It processes images, videos, and live camera feeds to detect vehicles (cars, trucks, buses, motorcycles), stores results in a SQLite database, and provides visualizations and reports for traffic analysis. The system is scalable, user-friendly, and adaptable for traffic management, surveillance, urban planning, and research.
 
 **Authors:**
-- Zeleke Kassahun Getachewu (ID: 2120246060)
-- Degife Ruth Dachew (ID: 2120246015)
+- Zeleke Kassahun Getachewu
+- Degife Ruth Dachew 
 
 **Submission Date:** May 28, 2025
 
